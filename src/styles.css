@@ -1,0 +1,90 @@
+/* You can add global styles to this file, and also import other style files */
+
+.App {
+  text-align: center;
+}
+
+body {
+  margin: 10px;
+  text-align: center;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+  margin-left: 10px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+canvas {
+  margin: 10px 30px;
+  padding: 10px 30px;
+  width: 90% !important;
+  height: 50% !important;
+  border: 3px solid black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.chart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (min-width: 500px) {
+  canvas {
+    width: 250px;
+  }
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

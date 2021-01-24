@@ -1,0 +1,30 @@
+.scroll {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: blueviolet;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s;
+}
+
+.scroll:active {
+  height: 55px;
+}
+
+.scroll:hover {
+  color: white;
+}
+
+.scroll h1 {
+    position: absolute;
+    top: 10px;
+    font-weight: bold;
+    font-size: 2rem;
+}
